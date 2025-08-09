@@ -1,0 +1,84 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/classifiy/classifiy",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/user/user",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/classlist/classlist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类页面",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/preview/preview",
+			"style" : 
+			{
+				"navigationBarTitleText" : "预览",
+				"navigationBarBackgroundColor": "#ffbec8"
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索",
+				"navigationBarBackgroundColor": "#ffbec8"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "游戏天堂",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		
+		"color": "#888",
+		"list": [
+			{
+				"text": "推荐",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/image/index.png",
+				"selectedIconPath": "/static/image/index_c.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/classifiy/classifiy",
+				"iconPath": "/static/image/sort.png",
+				"selectedIconPath": "/static/image/sort_c.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "/static/image/my.png",
+				"selectedIconPath": "/static/image/my_c.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
